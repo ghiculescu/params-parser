@@ -1,7 +1,15 @@
 source "https://rubygems.org"
 
-# Use main development branch of Rails
-gem "rails", github: "rails/rails", branch: "main"
+
+# gem "rails", github: "rails/rails", ref: "7a7b5baea6851e1a0c65492d85bba419ec160e16" # BEFORE https://github.com/TandaHQ/payaus/pull/33049
+gem "rails", github: "rails/rails", ref: "3d2ac8a6375c70b1820fb608dbcc71a44fefa30d" # AFTER https://github.com/TandaHQ/payaus/pull/33049
+
+
+# gem "rails", github: "rails/rails", branch: "main"
+
+
+
+
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use sqlite3 as the database for Active Record

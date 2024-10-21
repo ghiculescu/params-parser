@@ -1,0 +1,20 @@
+<div id="output"></div>
+
+<script>
+async function getData() {
+  const url = "http://localhost:3000/foo?date=2024-10-21&amp;user_id=123&amp;something=else"
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const text = await response.text();
+    document.getElementById("output").innerText = text
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+getData()
+</script>
