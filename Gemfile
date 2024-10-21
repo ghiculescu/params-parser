@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
 
-# gem "rails", github: "rails/rails", ref: "7a7b5baea6851e1a0c65492d85bba419ec160e16" # BEFORE https://github.com/TandaHQ/payaus/pull/33049
-gem "rails", github: "rails/rails", ref: "3d2ac8a6375c70b1820fb608dbcc71a44fefa30d" # AFTER https://github.com/TandaHQ/payaus/pull/33049
+gem "rails", github: "rails/rails", ref: "7a7b5baea6851e1a0c65492d85bba419ec160e16" # BEFORE https://github.com/TandaHQ/payaus/pull/33049
+# gem "rails", github: "rails/rails", ref: "3d2ac8a6375c70b1820fb608dbcc71a44fefa30d" # AFTER https://github.com/TandaHQ/payaus/pull/33049
 
 
 # gem "rails", github: "rails/rails", branch: "main"

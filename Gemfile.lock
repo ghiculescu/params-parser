@@ -1,7 +1,25 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 3d2ac8a6375c70b1820fb608dbcc71a44fefa30d
-  ref: 3d2ac8a6375c70b1820fb608dbcc71a44fefa30d
+  revision: 7a7b5baea6851e1a0c65492d85bba419ec160e16
+  ref: 7a7b5baea6851e1a0c65492d85bba419ec160e16
+  specs:
+    rails (8.0.0.beta1)
+      actioncable (= 8.0.0.beta1)
+      actionmailbox (= 8.0.0.beta1)
+      actionmailer (= 8.0.0.beta1)
+      actionpack (= 8.0.0.beta1)
+      actiontext (= 8.0.0.beta1)
+      actionview (= 8.0.0.beta1)
+      activejob (= 8.0.0.beta1)
+      activemodel (= 8.0.0.beta1)
+      activerecord (= 8.0.0.beta1)
+      activestorage (= 8.0.0.beta1)
+      activesupport (= 8.0.0.beta1)
+      bundler (>= 1.15.0)
+      railties (= 8.0.0.beta1)
+
+GEM
+  remote: https://rubygems.org/
   specs:
     actioncable (8.0.0.beta1)
       actionpack (= 8.0.0.beta1)
@@ -74,32 +92,6 @@ GIT
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
-    rails (8.0.0.beta1)
-      actioncable (= 8.0.0.beta1)
-      actionmailbox (= 8.0.0.beta1)
-      actionmailer (= 8.0.0.beta1)
-      actionpack (= 8.0.0.beta1)
-      actiontext (= 8.0.0.beta1)
-      actionview (= 8.0.0.beta1)
-      activejob (= 8.0.0.beta1)
-      activemodel (= 8.0.0.beta1)
-      activerecord (= 8.0.0.beta1)
-      activestorage (= 8.0.0.beta1)
-      activesupport (= 8.0.0.beta1)
-      bundler (>= 1.15.0)
-      railties (= 8.0.0.beta1)
-    railties (8.0.0.beta1)
-      actionpack (= 8.0.0.beta1)
-      activesupport (= 8.0.0.beta1)
-      irb (~> 1.13)
-      rackup (>= 1.0.0)
-      rake (>= 12.2)
-      thor (~> 1.0, >= 1.2.2)
-      zeitwerk (~> 2.6)
-
-GEM
-  remote: https://rubygems.org/
-  specs:
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.2)
@@ -241,6 +233,14 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    railties (8.0.0.beta1)
+      actionpack (= 8.0.0.beta1)
+      activesupport (= 8.0.0.beta1)
+      irb (~> 1.13)
+      rackup (>= 1.0.0)
+      rake (>= 12.2)
+      thor (~> 1.0, >= 1.2.2)
+      zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.2.1)
     rdoc (6.7.0)
