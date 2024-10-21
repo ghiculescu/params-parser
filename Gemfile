@@ -2,7 +2,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 
-gem "rack", "2.2.9"
+gem "rack", "3.1.8"
 # gem "rack", "~> 3"
 # gem "rails", github: "rails/rails", branch: "main", ref: "7a7b5baea6851e1a0c65492d85bba419ec160e16" # BEFORE https://github.com/TandaHQ/payaus/pull/33049
 gem "rails", github: "rails/rails", branch: "main" # AFTER https://github.com/TandaHQ/payaus/pull/33049
